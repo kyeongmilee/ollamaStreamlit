@@ -164,3 +164,4 @@ uvicorn==0.29.0 ; python_version >= "3.11.dev0" and python_version < "3.12.dev0"
 watchdog==4.0.0 ; python_version >= "3.11.dev0" and python_version < "3.12.dev0" and platform_system != "Darwin"
 wrapt==1.16.0 ; python_version >= "3.11.dev0" and python_version < "3.12"
 yarl==1.9.4 ; python_version >= "3.11.dev0" and python_version < "3.12.dev0"
+opencv-python-headless
