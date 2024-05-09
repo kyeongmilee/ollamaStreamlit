@@ -90,8 +90,8 @@ omegaconf==2.3.0 ; python_version >= "3.11.dev0" and python_version < "3.12"
 onnx==1.16.0 ; python_version >= "3.11.dev0" and python_version < "3.12"
 onnxruntime==1.15.1 ; python_version >= "3.11.dev0" and python_version < "3.12"
 openai==1.17.0 ; python_version >= "3.11.dev0" and python_version < "3.12.dev0"
-opencv-python==4.9.0.80 ; python_version >= "3.11.dev0" and python_version < "3.12"
-opencv-python-headless==4.5.1.48
+#opencv-python==4.9.0.80 ; python_version >= "3.11.dev0" and python_version < "3.12"
+opencv-python-headless
 orjson==3.10.0 ; python_version >= "3.11.dev0" and python_version < "3.12.dev0"
 packaging==23.2 ; python_version >= "3.11.dev0" and python_version < "3.12"
 pandas==2.2.2 ; python_version >= "3.11.dev0" and python_version < "3.12"
