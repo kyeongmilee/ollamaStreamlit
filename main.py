@@ -120,7 +120,7 @@ def embed_file():
     file_path = f"./eyas_docs3.txt"
 
     #cache_dir = LocalFileStore(f"./.cache/embeddings/{file.name}") #/data/home/leekyeongmi/langserve_ollama/example
-    cache_dir = LocalFileStore(f"/data/home/leekyeongmi/langserve_ollama/example/.cache/embeddings/eyas_docs3.txt") #/data/home/leekyeongmi/langserve_ollama/example
+    cache_dir = LocalFileStore(f"./eyas_docs3.txt") #/data/home/leekyeongmi/langserve_ollama/example
 
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
